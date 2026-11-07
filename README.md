@@ -38,7 +38,9 @@ I handled deployment for our SIH team’s case-document system, which tracks fil
 
 **My part** · I owned deployment for the team. If you’re exploring the repository, the document history and access rules are good starting points for understanding the application we were deploying.
 
-#### [Car Rental Management ↗](https://github.com/7awwad/DBMS)
+#### [Coastline · Car Rental Management ↗](https://7awwad.github.io/DBMS/)
+
+Try the booking demo: select your dates, compare full trip prices in rupees, and reserve a car. Demo bookings stay in your browser. [View the DBMS project](https://github.com/7awwad/DBMS)
 
 My DBMS project connects a browser interface to an Express server and a SQLite database. Cars, customers, and rentals are separate records. A rental ties a particular customer to a particular car, so the application can show who rented what without duplicating the car or customer details.
 
