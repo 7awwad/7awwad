@@ -4,9 +4,19 @@
 
 ### `whoami`
 
-I study **Computer Science (AI & ML)** at AITM in Bhatkal. I build with cameras and voice input, from traffic lights that respond to queues to a campus assistant that listens when you raise your hand.
+- I study **Computer Science (AI & ML)** at AITM in Bhatkal.
 
-[Featured build](#featured-build) · [Selected projects](#selected-projects) · [GitHub activity](#github-activity)
+- I build **computer vision projects**. In CampusPilot, raising your hand starts voice input.
+
+- I’m exploring **cybersecurity**, starting with how to track ransomware groups’ public claims.
+
+<br>
+
+### GitHub activity
+
+<a href="https://github.com/7awwad?tab=overview#js-contribution-activity"><img src="./assets/contributions.svg" width="100%" alt="My rolling GitHub contribution calendar with current and longest streaks in the displayed year"></a>
+
+<br>
 
 ### Featured build
 
@@ -61,12 +71,6 @@ The last step took place outside the browser. The app could reveal all ten digit
 
 
 For the monitoring project, the first question I want the dashboard to answer is *what changed since the last check?* A group might repeat a claim or change a listing. I want the interface to make those changes visible while keeping the source and observation date attached to each entry.
-
-### GitHub activity
-
-<a href="https://github.com/7awwad?tab=overview#js-contribution-activity"><img src="./assets/contributions.svg" width="100%" alt="My rolling GitHub contribution calendar with current and longest streaks in the displayed year"></a>
-
-Each square represents one day. Brighter squares mean more contributions. The streak counts consecutive days with activity on GitHub, and the map refreshes daily. [How the map is built](./scripts/contributions.py)
 
 ### Tools in practice
 
