@@ -1,6 +1,6 @@
-<img src="./assets/seven.svg" width="100%" alt="Jawwad Nagarmat — animated copper seven, computer vision and cybersecurity">
+<img src="./assets/seven.svg?v=glacier" width="100%" alt="Jawwad Nagarmat — custom angular wordmark and animated indigo seven, computer vision and cybersecurity">
 
-<p><a href="https://linkedin.com/in/MohammedJawwadNagarmat"><img src="./assets/linkedin.svg" width="49%" alt="Open Mohammed Jawwad Nagarmat’s LinkedIn profile"></a> <a href="mailto:mohammedjawwadnagarmat8@gmail.com"><img src="./assets/email.svg" width="49%" alt="Email Jawwad"></a></p>
+<p><a href="https://linkedin.com/in/MohammedJawwadNagarmat"><img src="./assets/linkedin.svg?v=glacier" width="49%" alt="Open Mohammed Jawwad Nagarmat’s LinkedIn profile"></a> <a href="mailto:mohammedjawwadnagarmat8@gmail.com"><img src="./assets/email.svg?v=glacier" width="49%" alt="Email Jawwad"></a></p>
 
 ### `whoami`
 
@@ -10,7 +10,7 @@ I study **Computer Science (AI & ML)** at AITM in Bhatkal. I work with cameras, 
 
 `~/lab/projects`
 
-<img src="./assets/project-reel.svg" width="100%" alt="Illustrated project reel. CampusPilot tracks hand landmarks and activates voice input. BlackOut reveals three clue groups of three, three, and four digits.">
+<img src="./assets/project-reel.svg?v=glacier" width="100%" alt="Illustrated project reel. CampusPilot tracks hand landmarks and activates voice input. BlackOut reveals three clue groups of three, three, and four digits.">
 
 **[Try CampusPilot ↗](https://campuspilot-aitm.azurevole256.chatgpt.site)** · Raise an open palm and the microphone starts listening. I connected hand detection to speech recognition so a student can ask a question hands-free.
 
@@ -20,7 +20,7 @@ I study **Computer Science (AI & ML)** at AITM in Bhatkal. I work with cameras, 
 
 ### `cat field-notes/blackout`
 
-<img src="./assets/session.svg" width="100%" alt="BlackOut Round 2 walkthrough: win a duel, collect three QR clues, then dial the coordinator.">
+<img src="./assets/session.svg?v=glacier" width="100%" alt="BlackOut Round 2 walkthrough: win a duel, collect three QR clues, then dial the coordinator.">
 
 The last step took place outside the browser. The app could reveal all ten digits, but only the coordinator could confirm which team called first. That’s why we gave the organiser a manual finish control. [Game rules and technical notes](https://github.com/7awwad/BLACKOUT_NOVA-AITM/blob/main/docs/TECHNICAL-NOTES.md)
 
@@ -39,4 +39,3 @@ During my internship at **Syberweb Technologies**, I helped with endpoint protec
 | Area | How I use it |
 | --- | --- |
 | Python · OpenCV | Process camera frames and test what a gesture or movement should trigger. |
-| JavaScript · Node.js | Build browser interactions and connect them to application logic. |
