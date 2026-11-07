@@ -4,13 +4,17 @@
 
 ### `whoami`
 
-I study **Computer Science (AI & ML)** at AITM in Bhatkal. I build hands-free interfaces and college event software, and I’m exploring cybersecurity.
+I study **Computer Science (AI & ML)** at AITM in Bhatkal. I build with cameras and voice input, from traffic lights that respond to queues to a campus assistant that listens when you raise your hand.
 
-### GitHub activity
+[Featured build](#featured-build) · [Selected projects](#selected-projects) · [GitHub activity](#github-activity)
 
-<a href="https://github.com/7awwad?tab=overview#js-contribution-activity"><img src="./assets/contributions.svg" width="100%" alt="My rolling GitHub contribution calendar with current and longest streaks in the displayed year"></a>
+### Featured build
 
-Each square represents one day. Brighter squares mean more contributions. The streak counts consecutive days with activity on GitHub, and the map refreshes daily. [How the map is built](./scripts/contributions.py)
+<a href="https://github.com/7awwad/ai-traffic-signal-optimization"><img src="./assets/intersection.svg" width="100%" alt="Adaptive Traffic Signals: an illustrated intersection with a queue moving when the light turns green. Open the project."></a>
+
+**What if a traffic light could see the queue?** Faris Ruknuddin and I built an OpenCV simulation that estimates traffic density in each approach and adjusts the green phase between **8 and 35 seconds**. The illustration shows the idea; the repository includes intersection footage and the Python controller.
+
+[Explore the project ↗](https://github.com/7awwad/ai-traffic-signal-optimization) · [Read the signal logic](https://github.com/7awwad/ai-traffic-signal-optimization/blob/main/traffic_logic.py)
 
 ### Selected projects
 
@@ -55,6 +59,12 @@ The last step took place outside the browser. The app could reveal all ten digit
 
 
 For the monitoring project, the first question I want the dashboard to answer is *what changed since the last check?* A group might repeat a claim or change a listing. I want the interface to make those changes visible while keeping the source and observation date attached to each entry.
+
+### GitHub activity
+
+<a href="https://github.com/7awwad?tab=overview#js-contribution-activity"><img src="./assets/contributions.svg" width="100%" alt="My rolling GitHub contribution calendar with current and longest streaks in the displayed year"></a>
+
+Each square represents one day. Brighter squares mean more contributions. The streak counts consecutive days with activity on GitHub, and the map refreshes daily. [How the map is built](./scripts/contributions.py)
 
 ### Tools in practice
 
