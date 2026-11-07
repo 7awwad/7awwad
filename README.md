@@ -42,19 +42,23 @@ I ran Round 2 at our college event. Teams won duels, hunted for QR clues, and as
 
 **Inside the round** · The organiser needs a different view from a player. A team needs its next clue. The organiser needs to know which teams have finished a duel, whether the hunt is open, and who made the first valid call. I had to think about what would happen in the room as well as what appeared on each screen.
 
-#### [CaseVault ↗](https://github.com/ZephyrusZorro/case-vault)
+#### 🔐 [CaseVault](https://github.com/ZephyrusZorro/case-vault)
 
-I handled deployment for our SIH team’s case-document system, which tracks file versions and controls access to records.
+- **My role** · I handled deployment for our Smart India Hackathon team.
 
-**My part** · I owned deployment for the team. If you’re exploring the repository, the document history and access rules are good starting points for understanding the application we were deploying.
+- **Document history** · The system tracks revisions to case files.
 
-#### [Coastline · Car Rental Management ↗](https://7awwad.github.io/DBMS/)
+- **Access control** · Permissions determine who can open each record.
 
-Try the booking demo: select your dates, compare full trip prices in rupees, and reserve a car. Demo bookings stay in your browser. [View the DBMS project](https://github.com/7awwad/DBMS)
+<br>
 
-My DBMS project connects a browser interface to an Express server and a SQLite database. Cars, customers, and rentals are separate records. A rental ties a particular customer to a particular car, so the application can show who rented what without duplicating the car or customer details.
+#### 🚘 [Coastline · Car Rental Management](https://7awwad.github.io/DBMS/)
 
-This was one of the first projects where I could follow a request all the way through: submit a form, handle it in Node.js, store the result in SQLite, then display the saved record in the browser.
+- **Try the demo** · Pick dates, compare full trip prices, and reserve or cancel a car. Demo bookings stay in your browser.
+
+- **Inside the DBMS project** · An Express server stores cars, customers, and rentals in SQLite. Each rental links one customer to one car. [View source](https://github.com/7awwad/DBMS)
+
+<br>
 
 ### `cat field-notes/blackout`
 
