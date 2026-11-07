@@ -1,22 +1,26 @@
-<img src="./assets/seven.svg?v=glacier" width="100%" alt="Jawwad Nagarmat — custom angular wordmark and animated indigo seven, computer vision and cybersecurity">
+<img src="./assets/seven.svg?v=air" width="100%" alt="Jawwad Nagarmat — custom angular wordmark and animated indigo seven, computer vision and cybersecurity">
 
 <p><a href="https://linkedin.com/in/MohammedJawwadNagarmat"><img src="./assets/linkedin.svg?v=glacier" width="49%" alt="Open Mohammed Jawwad Nagarmat’s LinkedIn profile"></a> <a href="mailto:mohammedjawwadnagarmat8@gmail.com"><img src="./assets/email.svg?v=glacier" width="49%" alt="Email Jawwad"></a></p>
 
 ### `whoami`
 
-I study **Computer Science (AI & ML)** at AITM in Bhatkal. I work with cameras, voice input, and security tools. Two of my projects started with a simple question: what could someone do with a raised hand or a scanned clue?
+I study **Computer Science (AI & ML)** at AITM in Bhatkal. I build hands-free interfaces and college event software, and I’m exploring cybersecurity.
 
 ### Selected projects
 
-`~/lab/projects`
-
 <img src="./assets/project-reel.svg?v=glacier" width="100%" alt="Illustrated project reel. CampusPilot tracks hand landmarks and activates voice input. BlackOut reveals three clue groups of three, three, and four digits.">
 
-**[Try CampusPilot ↗](https://campuspilot-aitm.azurevole256.chatgpt.site)** · Raise an open palm and the microphone starts listening. I connected hand detection to speech recognition so a student can ask a question hands-free.
+#### [CampusPilot ↗](https://campuspilot-aitm.azurevole256.chatgpt.site)
 
-**[Explore BlackOut ↗](https://github.com/7awwad/BLACKOUT_NOVA-AITM)** · I ran Round 2 at our college event. Teams won duels, scanned clues around campus, and assembled a phone number. The winning move was a real call to our coordinator.
+Raise an open palm and the microphone starts listening. I connected hand detection to speech recognition so students can ask questions hands-free.
 
-**[View CaseVault ↗](https://github.com/ZephyrusZorro/case-vault)** · I handled deployment for our SIH team's case-document system, which tracks file versions and controls who can access each record.
+#### [BlackOut ↗](https://github.com/7awwad/BLACKOUT_NOVA-AITM)
+
+I ran Round 2 at our college event. Teams won duels, hunted for QR clues, and assembled the phone number for the winning call.
+
+#### [CaseVault ↗](https://github.com/ZephyrusZorro/case-vault)
+
+I handled deployment for our SIH team’s case-document system, which tracks file versions and controls access to records.
 
 ### `cat field-notes/blackout`
 
@@ -24,18 +28,8 @@ I study **Computer Science (AI & ML)** at AITM in Bhatkal. I work with cameras, 
 
 The last step took place outside the browser. The app could reveal all ten digits, but only the coordinator could confirm which team called first. That’s why we gave the organiser a manual finish control. [Game rules and technical notes](https://github.com/7awwad/BLACKOUT_NOVA-AITM/blob/main/docs/TECHNICAL-NOTES.md)
 
-### `cat experience/security`
-
-During my internship at **Syberweb Technologies**, I helped with endpoint protection, mobile device management, and email signature deployment. My work included user acceptance testing, troubleshooting, and documenting setup steps for support. That experience got me interested in how a security team checks that a tool actually works on the devices it manages.
-
 ### On my workbench
 
 **OmniScholar** · I work on the computer vision part of our final-year video player. We’re exploring when a lecture should pause or replay a section as the learner’s attention changes.
 
 **Ransomware monitoring** · I’m starting a dashboard that tracks public ransomware-group claims and distinguishes them from independently confirmed incidents.
-
-### `ls toolbox/`
-
-| Area | How I use it |
-| --- | --- |
-| Python · OpenCV | Process camera frames and test what a gesture or movement should trigger. |
