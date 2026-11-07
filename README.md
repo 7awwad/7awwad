@@ -6,6 +6,12 @@
 
 I study **Computer Science (AI & ML)** at AITM in Bhatkal. I build hands-free interfaces and college event software, and I’m exploring cybersecurity.
 
+### GitHub activity
+
+<a href="https://github.com/7awwad?tab=overview#js-contribution-activity"><img src="./assets/contributions.svg" width="100%" alt="My rolling GitHub contribution calendar with current and longest streaks in the displayed year"></a>
+
+Each square represents one day. Brighter squares mean more contributions. The streak counts consecutive days with activity on GitHub, and the map refreshes daily. [How the map is built](./scripts/contributions.py)
+
 ### Selected projects
 
 <img src="./assets/project-reel.svg?v=glacier" width="100%" alt="Illustrated project reel. CampusPilot tracks hand landmarks and activates voice input. BlackOut reveals three clue groups of three, three, and four digits.">
@@ -14,13 +20,25 @@ I study **Computer Science (AI & ML)** at AITM in Bhatkal. I build hands-free in
 
 Raise an open palm and the microphone starts listening. I connected hand detection to speech recognition so students can ask questions hands-free.
 
+**Inside CampusPilot** · The camera and microphone do different jobs. The camera decides when to start listening. Speech recognition then has to understand the actual question. When the transcript was inaccurate, I could check the words separately from the gesture that started the session. That distinction mattered when debugging what initially looked like one recognition problem.
+
 #### [BlackOut ↗](https://github.com/7awwad/BLACKOUT_NOVA-AITM)
 
 I ran Round 2 at our college event. Teams won duels, hunted for QR clues, and assembled the phone number for the winning call.
 
+**Inside the round** · The organiser needs a different view from a player. A team needs its next clue. The organiser needs to know which teams have finished a duel, whether the hunt is open, and who made the first valid call. I had to think about what would happen in the room as well as what appeared on each screen.
+
 #### [CaseVault ↗](https://github.com/ZephyrusZorro/case-vault)
 
 I handled deployment for our SIH team’s case-document system, which tracks file versions and controls access to records.
+
+**My part** · I owned deployment for the team. If you’re exploring the repository, the document history and access rules are good starting points for understanding the application we were deploying.
+
+#### [Car Rental Management ↗](https://github.com/7awwad/DBMS)
+
+My DBMS project connects a browser interface to an Express server and a SQLite database. Cars, customers, and rentals are separate records. A rental ties a particular customer to a particular car, so the application can show who rented what without duplicating the car or customer details.
+
+This was one of the first projects where I could follow a request all the way through: submit a form, handle it in Node.js, store the result in SQLite, then display the saved record in the browser.
 
 ### `cat field-notes/blackout`
 
@@ -33,3 +51,30 @@ The last step took place outside the browser. The app could reveal all ten digit
 **OmniScholar** · I work on the computer vision part of our final-year video player. We’re exploring when a lecture should pause or replay a section as the learner’s attention changes.
 
 **Ransomware monitoring** · I’m starting a dashboard that tracks public ransomware-group claims and distinguishes them from independently confirmed incidents.
+
+
+
+For the monitoring project, the first question I want the dashboard to answer is *what changed since the last check?* A group might repeat a claim or change a listing. I want the interface to make those changes visible while keeping the source and observation date attached to each entry.
+
+### Tools in practice
+
+| Area | Where I use it |
+| --- | --- |
+| **Python and OpenCV** | Explore camera input, inspect frames, and test which movements should trigger an action. |
+| **JavaScript and Node.js** | Connect what a participant sees in the browser with the rules that decide what happens next. |
+| **Express and SQLite** | Handle requests and store related car, customer, and rental records in my DBMS project. |
+| **Git and GitHub Actions** | Keep project changes traceable and generate this profile’s activity map from GitHub’s contribution calendar. |
+
+### A few things I’ve learned
+
+**Start with an observable action.** In CampusPilot, “raise a hand and start listening” gave me something specific to test. I could check the hand, the microphone, and the transcript one step at a time.
+
+**Keep a person in the loop where the software has no signal.** BlackOut could track scans, but the deciding event happened on a real phone. Giving the coordinator the final decision made the game rules match what we could actually observe.
+
+**Name your part in a team project.** In CaseVault, mine was deployment. In OmniScholar, it’s computer vision. Those experiences have given me different questions to ask: how does the team run what we built, and what can the camera reliably tell us?
+
+### Get in touch
+
+I’m a Computer Science (AI & ML) student in Bhatkal, interested in internships in cybersecurity and applied AI. If you work on gesture interfaces, learning tools, or security monitoring, I’d enjoy hearing how you test them with real users.
+
+[LinkedIn](https://linkedin.com/in/MohammedJawwadNagarmat) · [Email](mailto:mohammedjawwadnagarmat8@gmail.com)
