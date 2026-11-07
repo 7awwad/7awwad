@@ -1,4 +1,6 @@
-<img src="./assets/signal-lab.svg?v=2" width="100%" alt="Mohammed Jawwad Nagarmat — computer vision and cybersecurity. A rotating copper wireframe beside my name.">
+<img src="./assets/seven.svg" width="100%" alt="Jawwad Nagarmat — animated copper seven, computer vision and cybersecurity">
+
+<p><a href="https://linkedin.com/in/MohammedJawwadNagarmat"><img src="./assets/linkedin.svg" width="49%" alt="Open Mohammed Jawwad Nagarmat’s LinkedIn profile"></a> <a href="mailto:mohammedjawwadnagarmat8@gmail.com"><img src="./assets/email.svg" width="49%" alt="Email Jawwad"></a></p>
 
 ### `whoami`
 
@@ -38,12 +40,3 @@ During my internship at **Syberweb Technologies**, I helped with endpoint protec
 | --- | --- |
 | Python · OpenCV | Process camera frames and test what a gesture or movement should trigger. |
 | JavaScript · Node.js | Build browser interactions and connect them to application logic. |
-| SQL · SQLite | Model cars, customers, and rentals in my [car rental project](https://github.com/7awwad/DBMS). |
-| Git | Track changes and coordinate deployment work with teammates. |
-
-### `contact`
-
-I’m interested in internship opportunities in cybersecurity and applied AI.
-
-[LinkedIn](https://linkedin.com/in/MohammedJawwadNagarmat) · [Email me](mailto:mohammedjawwadnagarmat8@gmail.com)
-
