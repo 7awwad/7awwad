@@ -1,4 +1,4 @@
-<img src="./assets/seven.svg?v=air" width="100%" alt="Jawwad Nagarmat — custom angular wordmark and animated indigo seven, computer vision and cybersecurity">
+<img src="./assets/seven.svg?v=b510508c" width="100%" alt="Jawwad Nagarmat — custom angular wordmark and animated indigo seven, computer vision and cybersecurity">
 
 <p><a href="https://linkedin.com/in/MohammedJawwadNagarmat"><img src="./assets/linkedin.svg?v=glacier" width="49%" alt="Open Mohammed Jawwad Nagarmat’s LinkedIn profile"></a> <a href="mailto:mohammedjawwadnagarmat8@gmail.com"><img src="./assets/email.svg?v=glacier" width="49%" alt="Email Jawwad"></a></p>
 
