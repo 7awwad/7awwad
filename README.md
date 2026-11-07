@@ -1,4 +1,4 @@
-<img src="./assets/identity.svg?v=slow-reveal3" width="100%" alt="Jawwad Nagarmat — animated terminal ASCII portrait, computer vision and cybersecurity">
+<img src="./assets/identity.svg?v=reveal4" width="100%" alt="Jawwad Nagarmat — animated terminal ASCII portrait, computer vision and cybersecurity">
 
 <p><a href="https://linkedin.com/in/MohammedJawwadNagarmat"><img src="./assets/linkedin.svg?v=glacier" width="49%" alt="Open Mohammed Jawwad Nagarmat’s LinkedIn profile"></a> <a href="mailto:mohammedjawwadnagarmat8@gmail.com"><img src="./assets/email.svg?v=glacier" width="49%" alt="Email Jawwad"></a></p>
 
