@@ -4,11 +4,13 @@
 
 ### `whoami`
 
-- I study **Computer Science (AI & ML)** at AITM in Bhatkal.
+- 🎓 I’m a final-year **Computer Science (AI & ML)** student at AITM, Bhatkal.
 
-- I build **computer vision projects**. In CampusPilot, raising your hand starts voice input.
+- 🔐 I’m exploring **cybersecurity**, especially ethical hacking. I want to understand how attackers find weaknesses in systems and how to protect the data those systems hold.
 
-- I’m exploring **cybersecurity**, starting with how to track ransomware groups’ public claims.
+- 👁️ I’m especially interested in **computer vision**. I’ve used it to turn a raised hand into a voice command in **CampusPilot** and to estimate vehicle queues in **Adaptive Traffic Signals**.
+
+- 🛠️ I put real effort into the details of what I build. When something doesn’t work, I like figuring out why and trying again.
 
 <br>
 
@@ -20,6 +22,8 @@
 
 ### Featured build
 
+#### 🚦 [Adaptive Traffic Signals](https://github.com/7awwad/ai-traffic-signal-optimization)
+
 <a href="https://github.com/7awwad/ai-traffic-signal-optimization"><img src="./assets/intersection.svg" width="100%" alt="Adaptive Traffic Signals: an illustrated intersection with a queue moving when the light turns green. Open the project."></a>
 
 **What if a traffic light could see the queue?** Faris Ruknuddin and I built an OpenCV simulation that estimates traffic density in each approach and adjusts the green phase between **8 and 35 seconds**. The illustration shows the idea; the repository includes intersection footage and the Python controller.
@@ -30,13 +34,13 @@
 
 <img src="./assets/project-reel.svg?v=glacier" width="100%" alt="Illustrated project reel. CampusPilot tracks hand landmarks and activates voice input. BlackOut reveals three clue groups of three, three, and four digits.">
 
-#### [CampusPilot ↗](https://campuspilot-aitm.azurevole256.chatgpt.site)
+#### 🎙️ [CampusPilot ↗](https://campuspilot-aitm.azurevole256.chatgpt.site)
 
 Raise an open palm and the microphone starts listening. I connected hand detection to speech recognition so students can ask questions hands-free.
 
 **Inside CampusPilot** · The camera and microphone do different jobs. The camera decides when to start listening. Speech recognition then has to understand the actual question. When the transcript was inaccurate, I could check the words separately from the gesture that started the session. That distinction mattered when debugging what initially looked like one recognition problem.
 
-#### [BlackOut ↗](https://github.com/7awwad/BLACKOUT_NOVA-AITM)
+#### 🎮 [BlackOut ↗](https://github.com/7awwad/BLACKOUT_NOVA-AITM)
 
 I ran Round 2 at our college event. Teams won duels, hunted for QR clues, and assembled the phone number for the winning call.
 
