@@ -1,0 +1,32 @@
+name: Refresh contribution map
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 2 * * *'
+  push:
+    branches: [main]
+    paths: ['scripts/contributions.py', '.github/workflows/contributions.yml']
+permissions:
+  contents: write
+concurrency:
+  group: contribution-map
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Draw calendar
+        run: python3 scripts/contributions.py
+        env:
+          GH_TOKEN: ${{ github.token }}
+      - name: Publish changed map
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/contributions.svg
+          if ! git diff --cached --quiet; then
+            git commit -m 'Refresh contribution map'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
