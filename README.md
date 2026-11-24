@@ -102,3 +102,4 @@ For the monitoring project, the first question I want the dashboard to answer is
 I’m a Computer Science (AI & ML) student in Bhatkal, interested in internships in cybersecurity and applied AI. If you work on gesture interfaces, learning tools, or security monitoring, I’d enjoy hearing how you test them with real users.
 
 [LinkedIn](https://linkedin.com/in/MohammedJawwadNagarmat) · [Email](mailto:mohammedjawwadnagarmat8@gmail.com)
+
